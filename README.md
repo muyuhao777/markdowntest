@@ -1,6 +1,5 @@
-# markdowntest
-markdowntest
-# hello world
+## markdowntest
+#### hello world
 hello world
 *this text* is italic
 
@@ -27,5 +26,28 @@ ___
 2. i2
 
 <p>this is a graph</p>
-![my picture]
-(https://markdown-here.com/img/icon256.png)
+![graph](https://markdown-here.com/img/icon256.png)
+
+```bash
+ npm install
+ 
+ npm start
+```
+```javascript
+ function add(num1,num2)
+ {
+  return num1+num2;
+ }
+```
+```python
+ def add(num1,num2):
+  return num1+num2
+```
+
+|name|email|
+|---|---|
+|a|n.com|
+
+* [x] task 1
+* [x] task 2
+* [ ] task 3
